@@ -1,0 +1,531 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Acessar a home",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10782024500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home \"https://demoqa.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demoqa.com/login\"",
+                  "offset": 19
+                }
+              ],
+              "location": "testes.Cadastro.que_esteja_na_home(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169051000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Acessar o formulario",
+            "match": {
+              "location": "testes.Cadastro.acessar_o_formulario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258998400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Preencher o first name \"Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 23
+                }
+              ],
+              "location": "testes.Cadastro.preencher_o_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250013600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Prencher o last name \"Rennerdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rennerdb\"",
+                  "offset": 21
+                }
+              ],
+              "location": "testes.Cadastro.prencher_o_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333982000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Preencher o User name \"Teste Rennerdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste Rennerdb\"",
+                  "offset": 22
+                }
+              ],
+              "location": "testes.Cadastro.preencher_o_user_name(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-08T13:20:42.543Z",
+        "line": 15,
+        "name": "Cadastro com password numerico",
+        "description": "",
+        "id": "preencher-formulario;cadastro-com-password-numerico",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125031800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "digitar um password numerico \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 29
+                }
+              ],
+              "location": "testes.Cadastro.digitar_um_password_numerico(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6160711600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicar em registrar",
+            "match": {
+              "location": "testes.Cadastro.clicar_em_registrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276609700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "valido a mensagem de erro",
+            "match": {
+              "location": "testes.Cadastro.valido_a_mensagem_de_erro()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@renner"
+          },
+          {
+            "name": "@negativo"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Acessar a home",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8366018700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home \"https://demoqa.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demoqa.com/login\"",
+                  "offset": 19
+                }
+              ],
+              "location": "testes.Cadastro.que_esteja_na_home(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185738700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Acessar o formulario",
+            "match": {
+              "location": "testes.Cadastro.acessar_o_formulario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 450012000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Preencher o first name \"Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 23
+                }
+              ],
+              "location": "testes.Cadastro.preencher_o_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201997400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Prencher o last name \"Rennerdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rennerdb\"",
+                  "offset": 21
+                }
+              ],
+              "location": "testes.Cadastro.prencher_o_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249990500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Preencher o User name \"Teste Rennerdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste Rennerdb\"",
+                  "offset": 22
+                }
+              ],
+              "location": "testes.Cadastro.preencher_o_user_name(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-08T13:21:01.113Z",
+        "line": 23,
+        "name": "Cadastro com sucesso",
+        "description": "",
+        "id": "preencher-formulario;cadastro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 220415100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "digitar um password \"Teste@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste@12345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "testes.Cadastro.digitar_um_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6169950300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicar em registrar",
+            "match": {
+              "location": "testes.Cadastro.clicar_em_registrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341004300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "valido a mensagem de sucesso",
+            "match": {
+              "location": "testes.Cadastro.valido_a_mensagem_de_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@renner"
+          },
+          {
+            "name": "@positivo"
+          }
+        ]
+      }
+    ],
+    "name": "Preencher formulario",
+    "description": "  Eu como usuario quero preencher o formulario para realizar cadastro",
+    "id": "preencher-formulario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/cadastro.renner.feature",
+    "tags": [
+      {
+        "name": "@renner",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-08T13:21:17.310Z",
+        "line": 9,
+        "name": "Acessar ebook da livraria",
+        "description": "",
+        "id": "acessar-ebook;acessar-ebook-da-livraria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8159410700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que esteja na home \"https://demoqa.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demoqa.com/login\"",
+                  "offset": 19
+                }
+              ],
+              "location": "testes.Cadastro.que_esteja_na_home(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370999900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Preencher o User name \"Teste Rennerdb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste Rennerdb\"",
+                  "offset": 22
+                }
+              ],
+              "location": "testes.Cadastro.preencher_o_user_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171000800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "digitar um password \"Teste@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste@12345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "testes.Cadastro.digitar_um_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201998800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar em login",
+            "match": {
+              "location": "testes.ComprarLivro.clicar_em_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1180366600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "acessar Livraria",
+            "match": {
+              "location": "testes.ComprarLivro.acessar_livraria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300550600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Pesquisar Livro \"JavaScript\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JavaScript\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testes.ComprarLivro.pesquisar_livro(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5085683500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "selecionar Livro \"Programming JavaScript Applications\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Programming JavaScript Applications\"",
+                  "offset": 17
+                }
+              ],
+              "location": "testes.ComprarLivro.selecionar_livro(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10106775100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "valido codigo e autor",
+            "match": {
+              "location": "testes.ComprarLivro.valido_codigo_e_autor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5060852800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "adicionar Livro",
+            "match": {
+              "location": "testes.ComprarLivro.adicionar_livro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1143482400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "retornar ao perfil",
+            "match": {
+              "location": "testes.ComprarLivro.retornar_ao_perfil()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019288500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "checar livro na cesta",
+            "match": {
+              "location": "testes.ComprarLivro.checar_livro_na_cesta()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@renner"
+          },
+          {
+            "name": "@busca"
+          }
+        ]
+      }
+    ],
+    "name": "Acessar Ebook",
+    "description": "  Eu como usuario quero realizar a busca de um livro",
+    "id": "acessar-ebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ebook.feature",
+    "tags": [
+      {
+        "name": "@renner",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
